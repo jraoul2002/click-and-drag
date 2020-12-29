@@ -17,6 +17,10 @@
  * data that is saved and used between user interactionss
  * @property {string} separator - the text to use as a "mirror"
  */
+'use strict';
+
 export const data = {
-  separator: '|',
-};
+  isDown: false,
+  startX: 0,
+  scrollLeft: 0
+}
